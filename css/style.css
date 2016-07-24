@@ -16,11 +16,28 @@ header{
 	height: auto;
 
 
+}
 
-
+h1{
+	font-size: 40px;
 
 
 }
+h2{
+	font-size: 30px;
+
+}
+h3{
+	font-size: 20px;
+
+}
+
+p{
+	font-size: 14px;
+	line-height: 25px;
+
+}
+
 a{
 	padding-right: 10px;
 	padding-left: 10px;
@@ -70,7 +87,7 @@ a:hover{
 .mainBodyContainer{
 
 	clear: both;
-	background-image: url("../images/knitted-netting.png");
+	background-image: url("../images/textured_paper.png");
 	width: 100%;
 	float: left;
 
@@ -78,26 +95,48 @@ a:hover{
 }
 .mainBody{
 	background-color: #ffffff;
-	width: 50%;
+	width: 500px;
 	float: left;
-	margin: 30px 15px 30px 100px;
+	margin: 30px 15px 30px 85px;
+	border:1px solid #cccccc;
 	
 }
 .about{
 	margin: 10px 30px 0px 30px;
 	padding: 15px 0px;
-	border-bottom:3px solid #cccccc;
+	border-bottom:3px solid #dddddd;
 	float: left
 	width:100%;
+	color: #4aaaa5;
 
 }
 .text{
 clear: both;
-margin: 0px 30px;
+margin: 15px 30px 15px 30px;
 float:right;
-line-height: 30px;
 
+}
 
+.connectBox{
+
+	background-color: #ffffff;
+	width: 250px;
+	float: left;
+	margin: 30px 30px 0px 30px;
+	border:1px solid #cccccc;
+}
+
+.connectText{
+	color: #4aaaa5;
+	margin: 30px 30px;
+	border-bottom:3px solid #cccccc;
+	padding: 0 0 15px 0;
+
+}
+.imgLinks{
+	display:block;
+    margin:0 auto;
+    text-align: center;
 }
 
 img.me{ 
@@ -105,7 +144,20 @@ img.me{
 	padding: 10px 10px 0px 0px;
 }
 
-footer{
-clear: both;
+img.icons{
+	padding: 0 5px;
+	margin-bottom: 30px; 
 	
+
+}
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #666666;
+	color: #ffffff;
+	border-top:3px solid #4aaaa5;
+}
+.footerText{
+	text-align: center;
+	padding: 30px;
 }
